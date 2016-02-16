@@ -1,4 +1,4 @@
-(function( doc, win){
+(function( doc, win, sName){
 
 
 	var ToolFunction = function(){
@@ -133,6 +133,6 @@
 
 
 
-	win.œ = new ToolFunction();
+	win[ sName ] = new ToolFunction();
 
-})( document, window);
+})( document, window, 'œ');
